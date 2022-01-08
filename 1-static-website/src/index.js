@@ -1,6 +1,5 @@
-// Not needed as we are using the react and react-dom CDN
-// import React from 'react';
-// import ReactDOM from 'react-dom';
+import React from 'react';
+import ReactDOM from 'react-dom';
 
 function Header() {
     return (
