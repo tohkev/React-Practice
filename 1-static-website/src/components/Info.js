@@ -7,10 +7,10 @@ export default function Info() {
             <img src={ktohPict} alt="Kevin Toh" className="info-pict" />
             <h1 className="info-heading">Kevin Toh</h1>
             <p className="info-title">Aspiring Software Developer</p>
-            <address className="info-website">tohkev.github.io</address>
+            <address><a href="https://tohkev.github.io" className="info-website">tohkev.github.io</a></address>
             <div className="info-contact">
                 <a class="info-email" href="mailto:tohkev@gmail.com"><i class="fas fa-envelope info-icon"></i>Email</a>
-                <a class="info-linkedin" href="https://linkedin.com"><i class="fab fa-linkedin info-icon"></i>LinkedIn</a>
+                <a class="info-linkedin" href="https://www.linkedin.com/in/kevin-toh/"><i class="fab fa-linkedin info-icon"></i>LinkedIn</a>
             </div>
         </div>
     )

@@ -1,6 +1,6 @@
 body {
     background-color: #23252C;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
 }
 
 .container {
@@ -44,6 +44,11 @@ body {
     margin-top: 10px;
     font-style: normal;
     color: #F5F5F5;
+    text-decoration: none;
+}
+
+.info-website:hover {
+    text-decoration: underline;
 }
 
 .info-contact {
@@ -71,10 +76,18 @@ body {
     margin-left: 35px;
 }
 
+.info-email:hover {
+    background-color: rgb(206, 206, 206);
+}
+
 .info-linkedin {
     background-color: #5093E2;
     color: white;
     margin-right: 35px;
+}
+
+.info-linkedin:hover {
+    background-color: #4480c4;
 }
 
 .info-icon {
@@ -112,4 +125,8 @@ body {
     font-size: 25px;
     color: #918E9B;
     padding: 0 12px;
+}
+
+.footer-section > a:hover {
+    color: #DCDCDC;
 }
