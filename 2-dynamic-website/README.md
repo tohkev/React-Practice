@@ -1,0 +1,2 @@
+- Using a separate JS file to emulate retrieving raw data
+- Using the .map() array method to pass in props to create custom components
