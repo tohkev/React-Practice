@@ -40,9 +40,11 @@ body {
 
 .destination--block > img {
     max-width: 30%;
+    min-width: 20%;
     margin-right: 2rem;
     border-radius: 5px;
     border: 2px solid black;
+    flex-shrink: 0;
 }
 
 .destination--info {
@@ -77,4 +79,21 @@ body {
 
 .destination--description {
     line-height: 150%;
+}
+
+@media (max-width: 940px) {
+    .destination--block {
+        flex-direction: column;
+    }
+
+    .destination--block > img {
+        max-width: 65%;
+        margin-bottom: 1rem;
+    }
+}
+
+@media (max-width: 370px) {
+    body {
+        font-size: 0.7rem;
+    }
 }
