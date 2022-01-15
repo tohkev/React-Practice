@@ -2,6 +2,8 @@ import React from 'react';
 
 export default function Navbar() {
     return (
-        <h2>Navbar component</h2>
+        <nav className="nav--main">
+            <p className="nav--heading"><i class="fas fa-plane-departure nav--logo"></i>tohkev's travel journal</p>
+        </nav>
     )
 }

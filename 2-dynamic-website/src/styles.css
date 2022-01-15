@@ -1,0 +1,38 @@
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+}
+
+/* NAVBAR STYLE */
+
+.nav--heading {
+    font-size: 1rem;
+    background-color: #F55A5A;
+    padding: 1.5rem;
+    margin: 0;
+    color: white;
+    text-align: center;
+    font-weight: 500;
+    letter-spacing: -0.05em;
+}
+
+.nav--logo {
+    margin-right: 0.5rem;
+    font-size: 1.5rem;
+}
+
+/* DESTINATION STYLES */
+.destination--block {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4rem;
+}
+
+.destination--block > img {
+    max-width: 35%;
+    height: auto;
+}
+
+.destination--right {
+    width: 60%;
+}
