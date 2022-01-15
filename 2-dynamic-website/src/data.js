@@ -6,16 +6,16 @@ export default [
         startDate: "5 Dec, 2019",
         endDate: "12 Dec, 2019",
         description: 'The Dubai Frame is an architectural landmark in Zabeel Park, Dubai. It holds the record for the largest frame in the world. Whilst described by The Guardian newspaper as "the biggest picture frame on the planet, ” it is also controversial as the "biggest stolen building of all time.”',
-        imageUrl: "https://images.adsttc.com/media/images/5a4b/bce6/b22e/38b5/fa00/0067/newsletter/Screen_Shot_2018-01-02_at_12.05.08_PM.jpg?1514912994"
+        imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-Zj1NgJv6OPgSgIiwvdiNnor8FPrbsYkPEw&usqp=CAU"
     },
     {
-        title: "Panama Canal",
-        location: "Panama",
-        googleMapsUrl: "https://goo.gl/maps/YK5gwZnhVEi19pyW8",
+        title: "Las Vegas",
+        location: "USA",
+        googleMapsUrl: "https://goo.gl/maps/8hHL9TeFFCZS3DTJ8",
         startDate: "2 Dec, 2019",
         endDate: "2 Dec, 2019",
-        description: 'The Panama Canal is an artificial 82 km waterway in Panama that connects the Atlantic Ocean with the Pacific Ocean and divides North and South America. The canal cuts across the Isthmus of Panama and is a conduit for maritime trade.',
-        imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqe4nVeErPF2YhaEO1Y8I_X-NMPy-pYC1xng&usqp=CAU"
+        description: 'The famous Strip, also known as the "City Without Clocks", is filled with light, glitz, and unlimited partying. The Las Vegas Strip is a stretch of South Las Vegas Boulevard in Clark County, popular amongst tourists and visitors for its concentration of resort hotels and casinos.',
+        imageUrl: "https://encrypted-tbhttps://cdn.wallpapersafari.com/95/30/BNmvf4.jpgn0.gstatic.com/images?q=tbn:ANd9GcRqe4nVeErPF2YhaEO1Y8I_X-NMPy-pYC1xng&usqp=CAU"
     },
     {
         title: "La Sagrada Familia",
