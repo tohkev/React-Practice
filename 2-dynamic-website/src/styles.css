@@ -1,6 +1,12 @@
 body {
     font-family: 'Inter', sans-serif;
+    font-size: 0.85rem;
     margin: 0;
+}
+
+.container {
+    width: 60%;
+    margin: 0 auto;
 }
 
 /* NAVBAR STYLE */
@@ -24,15 +30,50 @@ body {
 /* DESTINATION STYLES */
 .destination--block {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
     margin-top: 4rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid rgb(221, 221, 221);
 }
 
 .destination--block > img {
-    max-width: 35%;
-    height: auto;
+    max-width: 65%;
+    margin-right: 2rem;
+    border-radius: 5px;
+    border: 2px solid black;
 }
 
-.destination--right {
-    width: 60%;
+.destination--info {
+    display: flex;
+    align-items: center;
+    line-height: 12px;
+}
+
+.destination--location {
+    text-transform: uppercase;
+    letter-spacing: 0.17em;
+    margin-right: 1rem;  
+}
+
+.marker {
+    color: red;
+}
+
+.destination--map {
+    color: #918E9B;
+}
+
+.destination--title {
+    margin: 0 0 1.25rem;
+    line-height: 30px;
+    font-size: 1.75rem;
+}
+
+.destination--date {
+    font-weight: bold;
+}
+
+.destination--description {
+    line-height: 150%;
 }
