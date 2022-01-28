@@ -8,7 +8,7 @@ body {
     color: white;
     font-family: 'Inter', sans-serif;
     margin: 0 auto;
-    border-radius: 0 0 10px 10px;
+    border-radius: 10px 10px 10px 10px;
 }
 
 .info-heading, .info-title, .about-me-heading, .about-me-descrip {
@@ -73,7 +73,6 @@ body {
     border-radius: 6px;
     font-size: 14px;
     font-weight: 500;
-    border: none;
     text-decoration: none;
     text-align: center;
 }
@@ -82,6 +81,7 @@ body {
     color: #374151;
     background-color: white;
     margin-left: 35px;
+    border: 1.5px solid black;
 }
 
 .info-email:hover {
@@ -93,6 +93,7 @@ body {
     color: inherit;
     margin-right: 35px;
     color: white;
+    border: 1.5px solid #5093E2;
 }
 
 .info-linkedin:hover {
@@ -151,11 +152,11 @@ body {
 }
 
 .container.light .info-title {
-    color: #f56c0a;
+    color: #ce0202;
 }
 
 .container.light .info-contact > a {
-    border: 1.5px solid black;
+    border: 1.5px solid rgb(63, 63, 63);
 }
 
 .container.light .footer-section > a:hover {
