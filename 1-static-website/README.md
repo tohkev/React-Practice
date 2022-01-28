@@ -1,2 +1,4 @@
 - Creating React components
 - Styling React components
+- Utilizing props
+- Utilizing and setting state
