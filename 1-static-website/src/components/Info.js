@@ -5,6 +5,7 @@ export default function Info() {
     return (
         <div className="info-section">
             <img src={ktohPict} alt="Kevin Toh" className="info-pict" />
+            <button className="info--theme"><i class="far fa-moon"></i></button>
             <h1 className="info-heading">Kevin Toh</h1>
             <p className="info-title">Aspiring Software Developer</p>
             <address><a href="https://tohkev.github.io" className="info-website">tohkev.github.io</a></address>

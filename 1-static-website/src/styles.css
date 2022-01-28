@@ -1,6 +1,5 @@
 body {
     background-color: #23252C;
-    /* box-sizing: border-box; */
 }
 
 .container {
@@ -23,6 +22,16 @@ body {
     align-items: center;
 }
 
+.info--theme {
+    margin-left: 85%;
+    margin-top: 0.5rem;
+    font-size: 1.2rem;
+    background-color: inherit;
+    border: none;
+    color: inherit;
+    cursor: pointer;
+}
+
 .info-pict {
     width: 100%;
     border-radius: 10px 10px 0px 0px;
@@ -30,7 +39,6 @@ body {
 
 .info-heading {
     font-size: 25px;
-    padding-top: 20px;
 }
 
 .info-title {
@@ -43,8 +51,8 @@ body {
     font-size: 11px;
     margin-top: 10px;
     font-style: normal;
-    color: #F5F5F5;
     text-decoration: none;
+    color: white;
 }
 
 .info-website:hover {
@@ -82,8 +90,9 @@ body {
 
 .info-linkedin {
     background-color: #5093E2;
-    color: white;
+    color: inherit;
     margin-right: 35px;
+    color: white;
 }
 
 .info-linkedin:hover {
@@ -102,14 +111,12 @@ body {
 
 .about-me-heading {
     font-size: 16px;
-    color: #F5F5F5;
 }
 
 .about-me-descrip {
     margin-top: 5px;
     font-size: 11px;
     line-height: 150%;
-    color: #DCDCDC;
 }
 
 /* FOOTER STYLES */
@@ -130,3 +137,33 @@ body {
 .footer-section > a:hover {
     color: #DCDCDC;
 }
+
+
+/* ****************************LIGHT STYLES*************************************** */
+
+.container.light {
+    background-color: rgb(238, 238, 238);
+    color: black;
+}
+
+.container.light .info-website {
+    color: inherit;
+}
+
+.container.light .info-title {
+    color: #f56c0a;
+}
+
+.container.light .info-contact > a {
+    border: 1.5px solid black;
+}
+
+.container.light .footer-section > a:hover {
+    color: rgb(46, 46, 46);
+}
+
+
+.container.light .footer-section {
+    background-color: rgb(216, 216, 216);
+}
+
